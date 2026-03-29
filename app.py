@@ -14,5 +14,5 @@ st.title('Test Streamkit')
 st.write('Hello World')
 
 if st.button('Generate Random Number'):
-  random = random.randint(1,100)
+  random_number = random.randint(1,100)
   st.write(f'Random Number: {random_number}')
